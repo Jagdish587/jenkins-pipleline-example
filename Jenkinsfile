@@ -5,6 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello Jagdish ,I am in build stage'
+                python /home/jagdish/jenkins-pipleline/jenkins-pipleline-example/sample.py
+                
             }
         }
         
